@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body,html {
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 200px;
+    background:url(ot1.jpg);
+    background-position: center;
+}
+
+.container{
+    margin-top: 25px;
+    margin-left: 15px;
+    background-color: #222;
+    color: #fff;
+    padding:20px 20px;
+    border-radius: 12px;
+    
+}
+
+h2{
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    text-align: center;
+    }
+
+.form-control{
+    margin-bottom: 20px;
+    margin-left: 20px;    
+    font-size: 18px;
+}
+
+.form-control input,
+.form-control textarea{
+    padding:10px 10px;
+    width: 90%;
+    /* border-radius: 4px; */
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid whitesmoke;
+    color: rgb(94, 172, 120);
+    font-size:17px;
+    /* pointer-events: none */
+     
+}
+.bir input{
+    padding: 8px;
+    width:10px;
+    height:10px;
+    margin-bottom: 20px;
+    margin-top:40px;
+
+}
+
+
+#Female, #Male{
+    margin-left:55px;
+     /* text-decoration-line: underline; */
+}
+
+input[type='radio']{
+    border:2px;
+    width: 25px;
+    height:15px;
+    accent-color: rgb(94, 172, 120);
+    
+}
+
+
+input[type='submit'] {
+    width: 90%;
+    background: transparent;
+    border: 0;
+    font-size:16px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 10px 10px;
+    color:white
+}
+.submit:hover{
+   background-color: crimson;
+   transition: 400ms
+}
