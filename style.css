@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
     
 }
 
@@ -12,7 +13,8 @@ body,html {
     display: flex;
     align-items: center;
     justify-content: right;
-    margin-right: 200px;
+    margin-right: 250px;
+    margin-top:40px;
     background:url(ot1.jpg);
     background-position: center;
 }
